@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body{
@@ -23,7 +24,7 @@ header{
 }
 
 
-.header-nav,.download,.descrizione,.server-discord,.visibilita,.personal,.affidabile,.nav-footer,.lingua,.registrati{
+.header-nav,.download,.descrizione,.server-discord,.visibilita-discord,.personal-discord,.affidabile,.nav-footer,.lingua,.registrati{
     display: flex;
 }
 
@@ -57,9 +58,10 @@ li{
 
 .immagine1{
     display: inline-block;
-    height: auto;
-    width: 500px;
+    width: 610px;
+    align-self:start;
 }
+
 .descrizione{
     justify-content: center;
     align-items: center;
@@ -107,29 +109,38 @@ li{
 
 
 
-.descrizione-img,.descrizione-img1{
+.descrizione-img,.descrizione-img1,.server-p{
     width: 250px;
     font-size: 0.9rem;
     margin-left: 3rem;
     
 }
 
-.titolo-img,.titolo-img1{
+
+.titolo-server,.titolo-visibilita,.titolo-personal{
      width: 300px;
-     font-size: 2.5rem;
-     margin-left: 3rem;
+     font-size: 2.2rem;
      margin-bottom: 1rem;
-    
 }
 
-.server-discord,.visibilita,.personal{
+.titolo-server,.server-p{
+    margin-left: 3rem;
+}
+
+.server-p,.visibilita-p,.personal-p{
+    font-size: .85rem;
+    width: 300px;
+    line-height:1.5rem ;
+}
+
+.server-discord,.visibilita-discord,.personal-discord{
     align-items: center;
     justify-content: center;
-    margin-top:125px;
+    margin-top:150px;
 }
 
 
-.titolo-descrizione1,.descrizione-img1{
+.titolo-visibilita,.visibilita-p{
     margin-right: 3rem;
 }
 
@@ -168,4 +179,32 @@ hr{
 
 .registrati{
     justify-content: space-between;
+}
+
+.visibilita{
+    align-self: start ;
+    margin-top: 25px;
+}
+
+.personal{
+    margin-top:25px ;
+    align-self: start ;
+}
+
+.affidabile-p{
+    width: 780px;
+    line-height:1.5rem ;
+    margin-top: 1rem;
+    margin: auto;
+}
+
+.titolo-affidabile{
+    width:780px ;
+    font-size: 2rem;
+    
+}
+
+.affidabilita{
+    justify-content: center;
+    align-items: center;
 }
