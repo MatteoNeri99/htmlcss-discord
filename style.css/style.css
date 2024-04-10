@@ -12,8 +12,11 @@ body{
 header{
     background-color:#255ee9 ;
     color: white;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
 
 }
+
 
 .logo-nav,.download,.descrizione,.server-discord,.visibilita,.personal,.affidabile,.nav-footer,.lingua,.registrati{
     display: flex;
@@ -41,7 +44,7 @@ li{
 
 .button-accedi{
    font-size: .7rem;
-   width: 5rem;
+   width: 3.5rem;
    padding: 8px;
    border-radius: 20px;
    border:transparent
@@ -51,6 +54,7 @@ li{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
     
 }
 
