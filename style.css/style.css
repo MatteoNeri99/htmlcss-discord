@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color:#255ee9 ;
+    color: white;
+
+}
+
+.logo-nav,.download,.descrizione,.server-discord,.visibilita,.personal,.affidabile,.nav-footer,.lingua,.registrati{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items:baseline;
+}
+
+li{
+    list-style: none;
+}
+
+.li-nav{
+    display: inline-block;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.logo,.button-accedi{
+    margin-top:1rem;
+}
+
+.button-accedi{
+   font-size: .7rem;
+   width: 5rem;
+   padding: 8px;
+   border-radius: 20px;
+   border:transparent
+}
+
+.descrizione{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.titolo-descrizione{
+    font-size: 2.35rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.descrizione-discord{
+    width: 565px;
+    text-align: center;
+    line-height:1.5rem ;
+}
+
+.download{
+    justify-content: center;
+    align-items: center;
+}
+
+.Mac{
+    margin-right: 50px;
+}
+
+.open-in-browser{
+    background-color: black;
+    color: white;
+    border:transparent
+}
+
+.open-in-browser,.Mac{
+    padding:.7rem ;
+    margin-top: 20px;
+    border-radius: 20px;
+    border:transparent;
+    margin-bottom: 5rem; 
+}
+
+.immagine1{
+   height:250px; 
+   width: 300px;
+   background-color: black;
+}
+
+.descrizione-img,.descrizione-img1{
+    width: 250px;
+    font-size: 0.9rem;
+    margin-left: 3rem;
+    
+}
+
+.titolo-img,.titolo-img1{
+     width: 250px;
+     font-size: 2.5rem;
+     margin-left: 3rem;
+    
+}
+
+.server-discord,.visibilita,.personal{
+    align-items: center;
+    justify-content: center;
+    margin-top:125px;
+}
+
+
+.titolo-descrizione1,.descrizione-img1{
+    margin-right: 3rem;
+}
+
+.immagine-grande{
+    height:300px; 
+    width: 1000px;
+    background-color: black;
+    
+}
+
+.affidabile{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+footer{
+    background-color: #23272a;
+    color: white;
+    margin-top: 125px;
+}
+
+.contenitor-lingua{
+    padding: .7rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+hr{
+    width: 70%;
+    color: #384464;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.registrati{
+    justify-content: space-between;
+}
