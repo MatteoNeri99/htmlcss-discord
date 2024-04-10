@@ -16,7 +16,6 @@ header{
 }
 
 .logo1{
-    display: inline-block;
     line-height: center;
     margin-top: 2rem;
     align-self: center;
@@ -56,6 +55,11 @@ li{
    border:transparent
 }
 
+.immagine1{
+    display: inline-block;
+    height: auto;
+    width: 500px;
+}
 .descrizione{
     justify-content: center;
     align-items: center;
@@ -101,11 +105,7 @@ li{
     margin-bottom: 5rem; 
 }
 
-.immagine1{
-   height:250px; 
-   width: 300px;
-   background-color: black;
-}
+
 
 .descrizione-img,.descrizione-img1{
     width: 250px;
@@ -115,9 +115,10 @@ li{
 }
 
 .titolo-img,.titolo-img1{
-     width: 250px;
+     width: 300px;
      font-size: 2.5rem;
      margin-left: 3rem;
+     margin-bottom: 1rem;
     
 }
 
