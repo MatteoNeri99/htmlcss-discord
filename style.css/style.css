@@ -192,19 +192,43 @@ hr{
 }
 
 .affidabile-p{
-    width: 780px;
+    width: 690px;
     line-height:1.5rem ;
     margin-top: 1rem;
-    margin: auto;
+    font-size: .9rem;
+    text-align: center;
 }
 
 .titolo-affidabile{
     width:780px ;
     font-size: 2rem;
+    text-align: center;
     
 }
 
 .affidabilita{
     justify-content: center;
     align-items: center;
+}
+
+.iniziare{
+   padding-top: 25px;
+   height: 40px;
+   width: 420px;
+   text-align: center;
+   margin-top: 3rem;
+   background-image: url(../img/stars.svg);
+   background-size: 420px;
+   color: #6a7b8b;
+   font-size:1.2rem;
+}
+
+.Mac-download{
+    margin-top: 2.7rem;
+    background-color:#7289da ;
+    border-radius: 30px;
+    color: white;
+    padding: .7rem;
+    border: transparent;
+    font-size: .7rem;
 }
