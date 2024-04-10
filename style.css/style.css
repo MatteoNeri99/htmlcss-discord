@@ -12,13 +12,16 @@ body{
 header{
     background-color:#255ee9 ;
     color: white;
-    background-image: url(../img/jumbo.png);
-    background-size: 100%;
 
 }
 
+.logo1{
+    display: inline-block;
+    margin-top: 2rem;
+}
 
-.logo-nav,.download,.descrizione,.server-discord,.visibilita,.personal,.affidabile,.nav-footer,.lingua,.registrati{
+
+.header-nav,.download,.descrizione,.server-discord,.visibilita,.personal,.affidabile,.nav-footer,.lingua,.registrati{
     display: flex;
 }
 
@@ -38,7 +41,7 @@ li{
     
 }
 
-.logo,.button-accedi{
+.button-accedi{
     margin-top:1rem;
 }
 
@@ -54,13 +57,15 @@ li{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
     
     
 }
 
 .titolo-descrizione{
     font-size: 2.35rem;
-    padding-top: 5rem;
+    padding-top: 7rem;
     padding-bottom: 2rem;
 }
 
@@ -82,7 +87,7 @@ li{
 .open-in-browser{
     background-color: black;
     color: white;
-    border:transparent
+    border:transparent;
 }
 
 .open-in-browser,.Mac{
